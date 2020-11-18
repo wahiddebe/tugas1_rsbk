@@ -1398,9 +1398,6 @@ function search() {
       document.getElementById("input").value.toLowerCase()
     );
   });
-  const lower = datas.map(function (name) {
-    return name.panggilan.toLowerCase();
-  });
   a =
     filterData == undefined || filterData.length == 0
       ? console.clear() + console.log("Gak Ada Data !")
